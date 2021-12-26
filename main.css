@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 20px;
+    background: #0e1111;
+}
+.header {
+    width: 100%;
+    height: 54px;
+    color: #18d26e;
+    border-bottom: solid 1px white;
+    top: 20px;
+}
+.header a {
+    color: #18d26e;
+}
+.header a:hover {
+    color: white;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.main .hashtag {
+    width: 20%;
+    height: auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    color: black;
+    margin: 50px 8px 0px 0px;
+}
+.main .hashflex {
+    width: 100%;
+    display: flex;
+}
+.hashtag a {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.hashtag a:hover {
+    color: white;
+    transition: all 1s;
+}
+.main i {
+    color: white;
+}
+.main .left h1 {
+    margin: 0;
+    font-size: 4em;
+}
+.main .left p {
+    margin-top: 7px;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+.downbtn {
+    position: relative;
+    top: -30px;
+    left: 705px;
+    color: white;
+    font-size: 24px;
+    animation-name: updown;
+    animation-duration: 8s;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(20px);
+    }
+    25% {
+        transform: translateY(-40px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.second {
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+}
+.m-title {
+    color: white;
+    text-align: center;
+}
+.m-title h2 {
+    font-size: 32px;
+    margin-top: 80px;
+    font-weight: 900;
+}
+.m-title p {
+    font-size: 22px;
+    font-weight: 700;
+}
+.intro {
+    width: 1000px;
+    height: 440px;
+    margin: 30px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mebox {
+    width: 49%;
+    height: 100px;
+    padding: 16px;
+    background: #212121;
+    font-size: 24px;
+    border-radius: 8px;
+}
+.mebox h2 {
+    font-size: 1.1em;
+    color: rgba(255, 255, 255, 0.5);
+}
+.mebox p {
+    font-size: 0.8em;
+    font-weight: 500;
+    color: white;
+}
+.mebox i {
+    margin-right: 15px;
+    color: #18d26e;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    padding: 14px;
+    float: left;
+}
+.insta {
+    text-decoration-line: underline;
+}
+.insta:hover {
+    color: #18d26e;
+    transition: ease 1s;
+}
+.like {
+    width: 100%;
+    height: 100vh;
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+}
+.fav-house {
+    margin-top: 30x;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.fav-part {
+    width: 30%;
+}
+.fav-part i {
+    font-size: 64px;
+}
+.fav-part h3 {
+    color: #18d26e;
+    font-size: 20px;
+    margin: 10px 0px 8px;
+}
+.greet {
+    width: 100%;
+    height: 100vh;
+    padding-top: 200px;
+}
+.greet .m-title a {
+    color: white;
+    background-color: #212121;
+}
+.greet .m-title a:hover {
+    width: 100px;
+    height: 100px;
+    color: #18d26e;
+    background-color: white;
+    transition: ease 0.5s;
+}
